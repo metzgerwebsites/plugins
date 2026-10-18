@@ -129,16 +129,11 @@ goose plugin install https://github.com/metzgerwebsites/plugins
 
 Goose has no uninstall command. To remove the bundle, delete `~/.agents/plugins/cursor-plugins`. To update it, run `goose plugin update cursor-plugins`.
 
-OpenCode and Crush have no plugin marketplaces. Point them at a checkout of this repository instead:
+OpenCode has no plugin marketplace. Point it at a checkout of this repository instead:
 
 ```jsonc
 // ~/.config/opencode/opencode.json
 { "skills": ["/path/to/plugins/skills"] }
-```
-
-```jsonc
-// ~/.config/crush/crush.json
-{ "options": { "skills_paths": ["/path/to/plugins/skills"] } }
 ```
 
 Some plugins ship Cursor-format hooks (`hooks/hooks.json`). Other agents install them and ignore those hooks; the plugin's skills still work.
