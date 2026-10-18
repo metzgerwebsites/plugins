@@ -136,11 +136,23 @@ OpenCode has no plugin marketplace. Point it at a checkout of this repository in
 { "skills": ["/path/to/plugins/skills"] }
 ```
 
-Some plugins ship Cursor-format hooks (`hooks/hooks.json`). Other agents install them and ignore those hooks; the plugin's skills still work.
+### Component coverage
+
+Each component type travels as far as the target harness supports it:
+
+| Component | How it travels |
+|:----------|:---------------|
+| Skills | Every harness. `SKILL.md` is the neutral Agent Skills format, and the aggregate `skills/` tree is a plain directory any harness can point at. |
+| Subagents | Claude Code discovers each plugin's `agents/` directory by convention, and the definitions validate cleanly. Other harnesses ignore the directory. |
+| MCP servers | Mirrored per plugin as `.mcp.json` for Claude Code, generated from the plugin's `mcp.json`. |
+| Hooks | Cursor-only. `hooks/hooks.json` uses Cursor event names, and other harnesses ignore those entries at runtime. |
+| Rules | Cursor-only. `rules/*.mdc` is a Cursor format, and other harnesses ignore the directory. |
+
+The skills of plugins with Cursor-only hooks or rules still work everywhere. When a new harness appears, the generator gains one target and nothing else changes.
 
 ## Repository structure
 
-This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins, and each plugin has its own manifest:
+This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins, and each plugin has its own manifest. Agents that work inside this repository must read `AGENTS.md` first: it names the generated files and the regeneration commands.
 
 ```
 plugins/
