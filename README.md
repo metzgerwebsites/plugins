@@ -117,8 +117,8 @@ Every plugin also ships a portable `plugin.json` (Agent Plugins 1.0.0) alongside
 |:------|:-------------------------|:-----------------|
 | Claude Code | `claude plugin marketplace add metzgerwebsites/plugins` | `claude plugin install <name>@cursor-plugins` |
 | Codex | `codex plugin marketplace add metzgerwebsites/plugins` | `codex plugin add <name>@cursor-plugins` |
-| Droid | `droid plugin marketplace add https://github.com/metzgerwebsites/plugins` | `droid plugin install <name>@cursor-plugins` |
-| Qwen Code | `qwen extensions sources add metzgerwebsites/plugins` | `qwen extensions install metzgerwebsites/plugins:<name>` |
+| Droid | `droid plugin marketplace add https://github.com/metzgerwebsites/plugins` | `droid plugin install <name>@plugins` |
+| Qwen Code | `qwen extensions sources add metzgerwebsites/plugins` | `qwen extensions install metzgerwebsites/plugins:<name> --consent` (the selector is ignored; the whole repository installs as one extension named `cursor-plugins`) |
 
 Gemini CLI and Goose take the whole repository as one bundle:
 
@@ -127,7 +127,7 @@ gemini extensions install https://github.com/metzgerwebsites/plugins
 goose plugin install https://github.com/metzgerwebsites/plugins
 ```
 
-Goose has no uninstall command. To remove the bundle, delete `~/.config/goose/plugins/cursor-plugins`. To update it, run `goose plugin update cursor-plugins`.
+Goose has no uninstall command. To remove the bundle, delete `~/.agents/plugins/cursor-plugins`. To update it, run `goose plugin update cursor-plugins`.
 
 OpenCode and Crush have no plugin marketplaces. Point them at a checkout of this repository instead:
 
@@ -138,7 +138,7 @@ OpenCode and Crush have no plugin marketplaces. Point them at a checkout of this
 
 ```jsonc
 // ~/.config/crush/crush.json
-{ "skills_paths": ["/path/to/plugins/skills"] }
+{ "options": { "skills_paths": ["/path/to/plugins/skills"] } }
 ```
 
 Some plugins ship Cursor-format hooks (`hooks/hooks.json`). Other agents install them and ignore those hooks; the plugin's skills still work.
