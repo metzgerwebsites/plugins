@@ -1,1 +1,4 @@
 harness/pstack/** linguist-generated=true
+.agents/plugins/marketplace.json linguist-generated=true
+.factory-plugin/marketplace.json linguist-generated=true
+skills/** linguist-generated=true

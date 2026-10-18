@@ -1,0 +1,21 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Manage repos, issues, pull requests, and Actions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.github.com/en/copilot/how-tos/context/use-mcp/use-the-github-mcp-server",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "git",
+    "repositories",
+    "pull-requests",
+    "issues",
+    "actions",
+    "mcp"
+  ]
+}

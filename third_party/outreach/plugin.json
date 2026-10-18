@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "outreach",
+  "version": "1.0.0",
+  "description": "Search sequences, prospects, and Kaia meetings.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.outreach.io/mcp-server",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "outreach",
+    "sales",
+    "sequences",
+    "prospects",
+    "kaia",
+    "crm",
+    "mcp"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zoho-desk",
+  "version": "1.0.0",
+  "description": "Work with tickets, contacts, tasks, and knowledge base articles in Zoho Desk.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/zoho-desk",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "zoho",
+    "zoho desk",
+    "help desk",
+    "customer support",
+    "tickets",
+    "knowledge base",
+    "mcp"
+  ]
+}

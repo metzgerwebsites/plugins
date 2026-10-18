@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "etoro-trading",
+  "version": "1.0.3",
+  "description": "View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://api-portal.etoro.com/core/vibe-code/cursor",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "etoro",
+    "brokerage",
+    "trading",
+    "portfolio",
+    "stocks",
+    "crypto",
+    "copy trading",
+    "market data",
+    "watchlists",
+    "mcp"
+  ]
+}

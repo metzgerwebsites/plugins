@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "x",
+  "version": "2.7.0",
+  "description": "Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.x.com/tools/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "x",
+    "twitter",
+    "posts",
+    "search",
+    "trends",
+    "news",
+    "lists",
+    "bookmarks",
+    "calls",
+    "chat",
+    "social",
+    "mcp"
+  ]
+}

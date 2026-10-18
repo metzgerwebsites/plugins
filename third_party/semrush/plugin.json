@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "semrush",
+  "version": "1.0.0",
+  "description": "Research keywords, backlinks, traffic, and competitors.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.semrush.com/api/v4/introduction/semrush-mcp/",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "semrush",
+    "seo",
+    "keywords",
+    "backlinks",
+    "competitive-intelligence",
+    "marketing",
+    "mcp"
+  ]
+}

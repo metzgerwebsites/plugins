@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cursor-plugins",
+  "version": "1.0.0",
+  "description": "Official Cursor plugin marketplace: developer tools, framework rules, MCP integrations, and agent skills, bundled for agents that install a repository as a single plugin.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "plugins",
+    "marketplace",
+    "skills"
+  ]
+}

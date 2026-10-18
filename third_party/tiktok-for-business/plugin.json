@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tiktok-for-business",
+  "version": "1.0.0",
+  "description": "Manage TikTok ad campaigns, ad groups, ads, audiences, creatives, and reports.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://business-api.tiktok.com/portal/docs/tiktok-ads-mcp-server/v1.3",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "tiktok",
+    "tiktok ads",
+    "tiktok for business",
+    "advertising",
+    "ads",
+    "campaigns",
+    "smart+",
+    "reporting",
+    "audiences",
+    "mcp"
+  ]
+}

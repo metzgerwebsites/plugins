@@ -1,0 +1,24 @@
+{
+  "name": "workday",
+  "version": "1.1.0",
+  "description": "Look up workers, organizations, time off, payroll, and recruiting data in Workday.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/workday",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "workday",
+    "hris",
+    "hr",
+    "human resources",
+    "people",
+    "employees",
+    "payroll",
+    "time off",
+    "recruiting",
+    "mcp"
+  ]
+}

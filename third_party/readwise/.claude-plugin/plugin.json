@@ -1,0 +1,20 @@
+{
+  "name": "readwise",
+  "version": "1.0.0",
+  "description": "Search highlights and Reader documents, save articles.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.readwise.io/tools/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "readwise",
+    "reader",
+    "highlights",
+    "reading",
+    "notes",
+    "mcp"
+  ]
+}

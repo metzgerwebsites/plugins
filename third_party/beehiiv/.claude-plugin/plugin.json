@@ -1,0 +1,23 @@
+{
+  "name": "beehiiv",
+  "version": "1.0.1",
+  "description": "Run your beehiiv newsletter from chat: draft and edit posts, organize subscribers with tags, custom fields, and segments, build automations, and review publication, post, and website performance.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.beehiiv.com/support/article/39255979546263-getting-started-with-the-beehiiv-mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "beehiiv",
+    "newsletter",
+    "email marketing",
+    "subscribers",
+    "segments",
+    "posts",
+    "automations",
+    "creator",
+    "mcp"
+  ]
+}

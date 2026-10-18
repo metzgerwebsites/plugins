@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "daloopa",
+  "version": "1.0.0",
+  "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.daloopa.com/docs/daloopa-mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "daloopa",
+    "fundamentals",
+    "kpis",
+    "sec filings",
+    "transcripts",
+    "equity research",
+    "financial data",
+    "mcp"
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "name": "cursor-plugins",
+  "description": "Official Cursor plugin marketplace: developer tools, framework rules, MCP integrations, and agent skills",
+  "owner": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "description": "Skill mapping, practice plans, and learning retrospectives.",
+      "source": "./teaching",
+      "category": "Utilities"
+    },
+    {
+      "name": "continual-learning",
+      "description": "Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only.",
+      "source": "./continual-learning",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-team-kit",
+      "description": "Internal team workflows for CI, code review, shipping, local automation, and verification.",
+      "source": "./cursor-team-kit",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "thermos",
+      "description": "Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows.",
+      "source": "./thermos",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "create-plugin",
+      "description": "Scaffold and validate new agent plugins.",
+      "source": "./create-plugin",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Iterative self-referential AI loops using the Ralph Wiggum technique.",
+      "source": "./ralph-loop",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-compatibility",
+      "description": "CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality.",
+      "source": "./agent-compatibility",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cli-for-agent",
+      "description": "Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run.",
+      "source": "./cli-for-agent",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pr-review-canvas",
+      "description": "Render PR diffs as review canvases grouped by importance.",
+      "source": "./pr-review-canvas",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docs-canvas",
+      "description": "Render documentation as a navigable canvas.",
+      "source": "./docs-canvas",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-sdk",
+      "description": "Build apps, scripts, and automations with the TypeScript SDK.",
+      "source": "./cursor-sdk",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "origin-apps",
+      "description": "Skills for building on the Cursor Origin API. Fetch the live spec first, then follow the Origin rules for credentials, scopes, webhooks, paging, and errors. Includes a skill that plans the port of an existing GitHub App.",
+      "source": "./origin-apps",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orchestrate",
+      "description": "Fan large tasks out across parallel cloud agents with planners, workers, verifiers, and structured handoffs.",
+      "source": "./orchestrate",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pstack",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "source": "./pstack",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dyl-stack",
+      "description": "Dylan's agent style on top of pstack: root causes over symptom patches, The Algorithm before design, terse verified delivery, a PR review that fits in a paste, and Figma-to-UI with a visual judge.",
+      "source": "./dyl-stack",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grok-voice",
+      "description": "Add Grok voice to an app: realtime speech-to-speech, speech-to-text dictation, text-to-speech read-aloud, and a log-driven fix loop for voice sessions.",
+      "source": "./grok-voice",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "advisor",
+      "description": "Consult a stronger model before major decisions, when stuck, and before declaring done.",
+      "source": "./advisor",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gmail",
+      "description": "Search, read, draft, and manage email.",
+      "source": "./third_party/gmail",
+      "category": "Productivity"
+    },
+    {
+      "name": "google-drive",
+      "description": "Search, read, create, and share files.",
+      "source": "./third_party/google-drive",
+      "category": "Productivity"
+    },
+    {
+      "name": "google-calendar",
+      "description": "Search events and schedule meetings.",
+      "source": "./third_party/google-calendar",
+      "category": "Productivity"
+    },
+    {
+      "name": "google-docs",
+      "description": "Read, create, and edit documents.",
+      "source": "./third_party/google-docs",
+      "category": "Productivity"
+    },
+    {
+      "name": "google-sheets",
+      "description": "Read, write, and append spreadsheet data.",
+      "source": "./third_party/google-sheets",
+      "category": "Productivity"
+    },
+    {
+      "name": "google-slides",
+      "description": "Create, edit, and render presentations.",
+      "source": "./third_party/google-slides",
+      "category": "Productivity"
+    },
+    {
+      "name": "gong",
+      "description": "Pull account summaries, deal insights, and call briefs.",
+      "source": "./third_party/gong",
+      "category": "Integrations"
+    },
+    {
+      "name": "salesforce",
+      "description": "Query, create, and update records in your org.",
+      "source": "./third_party/salesforce",
+      "category": "Integrations"
+    },
+    {
+      "name": "salesforce-headless-360",
+      "description": "Manage records, users, and org setup across Salesforce.",
+      "source": "./third_party/salesforce-headless-360",
+      "category": "Integrations"
+    },
+    {
+      "name": "playwright",
+      "description": "Navigate, click, screenshot, and test in a real browser.",
+      "source": "./third_party/playwright",
+      "category": "Integrations"
+    },
+    {
+      "name": "github",
+      "description": "Manage repos, issues, pull requests, and Actions.",
+      "source": "./third_party/github",
+      "category": "Integrations"
+    },
+    {
+      "name": "ashby",
+      "description": "Search candidates, prep interviews, and manage pipeline tasks.",
+      "source": "./third_party/ashby",
+      "category": "Integrations"
+    },
+    {
+      "name": "greenhouse",
+      "description": "Search candidates, jobs, and applications, and review scorecards in Greenhouse Recruiting.",
+      "source": "./third_party/greenhouse",
+      "category": "Integrations"
+    },
+    {
+      "name": "hubspot",
+      "description": "Search and update contacts, companies, deals, and tickets.",
+      "source": "./third_party/hubspot",
+      "category": "Integrations"
+    },
+    {
+      "name": "intercom",
+      "description": "Search conversations, contacts, and Help Center articles.",
+      "source": "./third_party/intercom",
+      "category": "Integrations"
+    },
+    {
+      "name": "zoom",
+      "description": "Search meetings, pull transcripts, and work with Zoom Docs.",
+      "source": "./third_party/zoom",
+      "category": "Integrations"
+    },
+    {
+      "name": "x",
+      "description": "Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls.",
+      "source": "./third_party/x",
+      "category": "Integrations"
+    },
+    {
+      "name": "clay",
+      "description": "Enrich people and companies, run AI research agents.",
+      "source": "./third_party/clay",
+      "category": "Integrations"
+    },
+    {
+      "name": "circleback",
+      "description": "Search meetings, transcripts, action items, and emails.",
+      "source": "./third_party/circleback",
+      "category": "Integrations"
+    },
+    {
+      "name": "docusign",
+      "description": "Manage envelopes, templates, workflows, and agreements.",
+      "source": "./third_party/docusign",
+      "category": "Integrations"
+    },
+    {
+      "name": "navan",
+      "description": "Query expenses, travel bookings, policies, and cards.",
+      "source": "./third_party/navan",
+      "category": "Integrations"
+    },
+    {
+      "name": "profound",
+      "description": "Track AI visibility, sentiment, and citations.",
+      "source": "./third_party/profound",
+      "category": "Integrations"
+    },
+    {
+      "name": "juicebox",
+      "description": "Query recruiting analytics, shortlists, and sourcing agents.",
+      "source": "./third_party/juicebox",
+      "category": "Integrations"
+    },
+    {
+      "name": "outreach",
+      "description": "Search sequences, prospects, and Kaia meetings.",
+      "source": "./third_party/outreach",
+      "category": "Integrations"
+    },
+    {
+      "name": "amplemarket",
+      "description": "Search people and companies, enrich leads, run sequences.",
+      "source": "./third_party/amplemarket",
+      "category": "Integrations"
+    },
+    {
+      "name": "klaviyo",
+      "description": "Manage profiles, segments, campaigns, and flows.",
+      "source": "./third_party/klaviyo",
+      "category": "Integrations"
+    },
+    {
+      "name": "customer-io",
+      "description": "Build campaigns, manage segments, and query people.",
+      "source": "./third_party/customer-io",
+      "category": "Integrations"
+    },
+    {
+      "name": "mailerlite",
+      "description": "Manage subscribers, groups, campaigns, and automations.",
+      "source": "./third_party/mailerlite",
+      "category": "Integrations"
+    },
+    {
+      "name": "brevo",
+      "description": "Manage contacts, email and SMS campaigns, and CRM deals.",
+      "source": "./third_party/brevo",
+      "category": "Integrations"
+    },
+    {
+      "name": "typeform",
+      "description": "Build forms, analyze responses, and manage contacts.",
+      "source": "./third_party/typeform",
+      "category": "Integrations"
+    },
+    {
+      "name": "jotform",
+      "description": "Create and edit forms, then read submissions.",
+      "source": "./third_party/jotform",
+      "category": "Integrations"
+    },
+    {
+      "name": "semrush",
+      "description": "Research keywords, backlinks, traffic, and competitors.",
+      "source": "./third_party/semrush",
+      "category": "Integrations"
+    },
+    {
+      "name": "ahrefs",
+      "description": "Research keywords, backlinks, rankings, and site health.",
+      "source": "./third_party/ahrefs",
+      "category": "Integrations"
+    },
+    {
+      "name": "godaddy",
+      "description": "Brainstorm domain names and check availability.",
+      "source": "./third_party/godaddy",
+      "category": "Integrations"
+    },
+    {
+      "name": "upwork",
+      "description": "Search talent, post jobs, and manage contracts.",
+      "source": "./third_party/upwork",
+      "category": "Integrations"
+    },
+    {
+      "name": "workable",
+      "description": "Search candidates, move pipelines, and manage HR records.",
+      "source": "./third_party/workable",
+      "category": "Integrations"
+    },
+    {
+      "name": "brex",
+      "description": "Query expenses, receipts, bills, cards, and travel.",
+      "source": "./third_party/brex",
+      "category": "Integrations"
+    },
+    {
+      "name": "todoist",
+      "description": "Create, find, and complete tasks and projects.",
+      "source": "./third_party/todoist",
+      "category": "Integrations"
+    },
+    {
+      "name": "calendly",
+      "description": "Check availability and book, cancel, or reschedule.",
+      "source": "./third_party/calendly",
+      "category": "Integrations"
+    },
+    {
+      "name": "smartsheet",
+      "description": "Query and update sheets, rows, and workspaces.",
+      "source": "./third_party/smartsheet",
+      "category": "Integrations"
+    },
+    {
+      "name": "wrike",
+      "description": "Search projects, create tasks, and post comments.",
+      "source": "./third_party/wrike",
+      "category": "Integrations"
+    },
+    {
+      "name": "coda",
+      "description": "Search docs, read pages, and update tables.",
+      "source": "./third_party/coda",
+      "category": "Integrations"
+    },
+    {
+      "name": "guru",
+      "description": "Search company knowledge and draft verified answers.",
+      "source": "./third_party/guru",
+      "category": "Integrations"
+    },
+    {
+      "name": "fireflies",
+      "description": "Search meeting transcripts, summaries, and action items.",
+      "source": "./third_party/fireflies",
+      "category": "Integrations"
+    },
+    {
+      "name": "otter",
+      "description": "Search meeting history and pull full transcripts.",
+      "source": "./third_party/otter",
+      "category": "Integrations"
+    },
+    {
+      "name": "fathom",
+      "description": "Search meetings and pull transcripts and summaries.",
+      "source": "./third_party/fathom",
+      "category": "Integrations"
+    },
+    {
+      "name": "craft",
+      "description": "Search, create, and update documents and daily notes.",
+      "source": "./third_party/craft",
+      "category": "Integrations"
+    },
+    {
+      "name": "mem",
+      "description": "Capture, search, and organize notes and collections.",
+      "source": "./third_party/mem",
+      "category": "Integrations"
+    },
+    {
+      "name": "readwise",
+      "description": "Search highlights and Reader documents, save articles.",
+      "source": "./third_party/readwise",
+      "category": "Integrations"
+    },
+    {
+      "name": "similarweb",
+      "description": "Analyze website traffic, audiences, and competitors.",
+      "source": "./third_party/similarweb",
+      "category": "Integrations"
+    },
+    {
+      "name": "xero",
+      "description": "Read and write invoices, contacts, reports, and payroll.",
+      "source": "./third_party/xero",
+      "category": "Integrations"
+    },
+    {
+      "name": "outlook",
+      "description": "Search, read, and send Microsoft Outlook email, and look up contacts.",
+      "source": "./third_party/outlook",
+      "category": "Productivity"
+    },
+    {
+      "name": "outlook-calendar",
+      "description": "List, create, update, and cancel Microsoft Outlook calendar events.",
+      "source": "./third_party/outlook-calendar",
+      "category": "Productivity"
+    },
+    {
+      "name": "onedrive",
+      "description": "Browse, search, and read Microsoft OneDrive files.",
+      "source": "./third_party/onedrive",
+      "category": "Productivity"
+    },
+    {
+      "name": "sharepoint",
+      "description": "Search and read Microsoft SharePoint sites, document libraries, files, and lists.",
+      "source": "./third_party/sharepoint",
+      "category": "Productivity"
+    },
+    {
+      "name": "teams",
+      "description": "Search, read, and send Microsoft Teams chats and channel messages.",
+      "source": "./third_party/teams",
+      "category": "Productivity"
+    },
+    {
+      "name": "finance",
+      "description": "Link your bank, card, and investment accounts through Plaid so Grok can answer questions about balances, spending, subscriptions, and investments. You'll share contact details, account and balance info, transactions, credit and loans, and investments. Grok syncs and stores your linked account data so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. Access is read-only, xAI never sees or stores your bank login, and you can unlink accounts anytime from cursor.com.",
+      "source": "./third_party/finance",
+      "category": "Integrations"
+    },
+    {
+      "name": "x-ads",
+      "description": "Manage ad campaigns, create ads, track conversions, and pull performance stats.",
+      "source": "./third_party/x-ads",
+      "category": "Integrations"
+    },
+    {
+      "name": "attio",
+      "description": "Search and update CRM records, lists, notes, and tasks.",
+      "source": "./third_party/attio",
+      "category": "Integrations"
+    },
+    {
+      "name": "hunter",
+      "description": "Find and verify emails, discover companies, and save leads.",
+      "source": "./third_party/hunter",
+      "category": "Integrations"
+    },
+    {
+      "name": "gamma",
+      "description": "Generate presentations, documents, and webpages.",
+      "source": "./third_party/gamma",
+      "category": "Integrations"
+    },
+    {
+      "name": "webull",
+      "description": "View accounts, positions, orders, watchlists, and market data.",
+      "source": "./third_party/webull",
+      "category": "Integrations"
+    },
+    {
+      "name": "sp-global",
+      "description": "Query S&P Capital IQ financials, prices, and transcripts.",
+      "source": "./third_party/sp-global",
+      "category": "Integrations"
+    },
+    {
+      "name": "interactive-brokers",
+      "description": "Review positions, balances, P&L, and draft trade instructions.",
+      "source": "./third_party/interactive-brokers",
+      "category": "Integrations"
+    },
+    {
+      "name": "meltwater",
+      "description": "Search media and social mentions and pull analytics.",
+      "source": "./third_party/meltwater",
+      "category": "Integrations"
+    },
+    {
+      "name": "daloopa",
+      "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
+      "source": "./third_party/daloopa",
+      "category": "Integrations"
+    },
+    {
+      "name": "excalidraw",
+      "description": "Draw and export hand-drawn diagrams from chat.",
+      "source": "./third_party/excalidraw",
+      "category": "Integrations"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "description": "Explore datasets and tables and run SQL queries.",
+      "source": "./third_party/google-cloud-bigquery",
+      "category": "Integrations"
+    },
+    {
+      "name": "statsig",
+      "description": "Inspect and manage feature gates, experiments, dynamic configs, and metrics.",
+      "source": "./third_party/statsig",
+      "category": "Integrations"
+    },
+    {
+      "name": "robinhood",
+      "description": "View portfolios, positions, orders, watchlists, and market data, and trade in a Robinhood Agentic account.",
+      "source": "./third_party/robinhood",
+      "category": "Integrations"
+    },
+    {
+      "name": "coinbase",
+      "description": "Check balances, get quotes, and preview or place trades.",
+      "source": "./third_party/coinbase",
+      "category": "Integrations"
+    },
+    {
+      "name": "etoro-trading",
+      "description": "View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades.",
+      "source": "./third_party/etoro-trading",
+      "category": "Integrations"
+    },
+    {
+      "name": "x-money",
+      "description": "Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history.",
+      "source": "./third_party/x-money",
+      "category": "Integrations"
+    },
+    {
+      "name": "shopify-store",
+      "description": "Connect your Shopify store so Grok can answer questions about your products, orders, customers, inventory, and sales. You sign in with Shopify and approve the store access Grok requests; Grok keeps that authorization so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. xAI never sees or stores your Shopify password, and you can disconnect the store anytime from grok.com.",
+      "source": "./third_party/shopify-store",
+      "category": "Integrations"
+    },
+    {
+      "name": "tinyfish",
+      "description": "Browse and automate the web with TinyFish: run multi-step web automations, search the web, extract clean page content, and drive remote stealth browser sessions.",
+      "source": "./third_party/tinyfish",
+      "category": "Integrations"
+    },
+    {
+      "name": "beehiiv",
+      "description": "Run your beehiiv newsletter from chat: draft and edit posts, organize subscribers with tags, custom fields, and segments, build automations, and review publication, post, and website performance.",
+      "source": "./third_party/beehiiv",
+      "category": "Integrations"
+    },
+    {
+      "name": "trello",
+      "description": "Manage your Trello workspace from chat: browse and create boards, view and move lists, create, update, move, archive, and complete cards with labels and due dates, manage checklists, capture Inbox cards, schedule Planner focus time, and search across boards.",
+      "source": "./third_party/trello",
+      "category": "Integrations"
+    },
+    {
+      "name": "buffer",
+      "description": "Manage social media with Buffer: draft, schedule, and publish posts across connected channels, manage the queue and ideas, and review post performance.",
+      "source": "./third_party/buffer",
+      "category": "Integrations"
+    },
+    {
+      "name": "plaud",
+      "description": "Work with your Plaud recordings: list and search meetings and voice notes, read full transcripts with speaker labels, and pull AI summaries, action items, and key topics into your workflow.",
+      "source": "./third_party/plaud",
+      "category": "Integrations"
+    },
+    {
+      "name": "posthog-mcp",
+      "description": "Work with PostHog from chat: query product analytics and run SQL, manage feature flags and experiments, triage error tracking issues, and review session replays, surveys, and dashboards (URL-only connector to PostHog's hosted MCP server).",
+      "source": "./third_party/posthog-mcp",
+      "category": "Integrations"
+    },
+    {
+      "name": "quickbooks-online",
+      "description": "Read invoices, bills, expenses, customers, accounts, and financial reports.",
+      "source": "./third_party/quickbooks-online",
+      "category": "Integrations"
+    },
+    {
+      "name": "workday",
+      "description": "Look up workers, organizations, time off, payroll, and recruiting data in Workday.",
+      "source": "./third_party/workday",
+      "category": "Integrations"
+    },
+    {
+      "name": "whatsapp-business",
+      "description": "Send messages and manage templates, contacts, and phone numbers in WhatsApp Business.",
+      "source": "./third_party/whatsapp-business",
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-crm",
+      "description": "Work with leads, contacts, accounts, deals, and other Zoho CRM records.",
+      "source": "./third_party/zoho-crm",
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-desk",
+      "description": "Work with tickets, contacts, tasks, and knowledge base articles in Zoho Desk.",
+      "source": "./third_party/zoho-desk",
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-books",
+      "description": "Work with contacts, invoices, estimates, and items in Zoho Books.",
+      "source": "./third_party/zoho-books",
+      "category": "Integrations"
+    },
+    {
+      "name": "square",
+      "description": "Work with payments, orders, catalog, customers, and invoices.",
+      "source": "./third_party/square",
+      "category": "Integrations"
+    },
+    {
+      "name": "tailscale",
+      "description": "Let Grok Bot reach MCP servers on your private Tailscale network. On your own tailnet it joins as one tag:grokbot device; on your team's company tailnet, turned on by a team admin, it uses each member's own device.",
+      "source": "./third_party/tailscale",
+      "category": "Integrations"
+    },
+    {
+      "name": "highlevel",
+      "description": "Work with contacts, conversations, opportunities, calendars, and payments.",
+      "source": "./third_party/highlevel",
+      "category": "Integrations"
+    },
+    {
+      "name": "finary",
+      "description": "Read your net worth, accounts, holdings, spending, and budgets.",
+      "source": "./third_party/finary",
+      "category": "Integrations"
+    },
+    {
+      "name": "tiktok-for-business",
+      "description": "Manage TikTok ad campaigns, ad groups, ads, audiences, creatives, and reports.",
+      "source": "./third_party/tiktok-for-business",
+      "category": "Integrations"
+    },
+    {
+      "name": "gusto",
+      "description": "Work with payroll, employees, contractors, time off, and reports.",
+      "source": "./third_party/gusto",
+      "category": "Integrations"
+    }
+  ]
+}

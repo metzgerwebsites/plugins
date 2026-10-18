@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "quickbooks-online",
+  "version": "1.1.0",
+  "description": "Read invoices, bills, expenses, customers, accounts, and financial reports.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/quickbooks-online",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "quickbooks",
+    "quickbooks online",
+    "qbo",
+    "intuit",
+    "accounting",
+    "bookkeeping",
+    "invoices",
+    "expenses",
+    "finance",
+    "mcp"
+  ]
+}

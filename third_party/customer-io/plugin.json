@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "customer-io",
+  "version": "1.0.0",
+  "description": "Build campaigns, manage segments, and query people.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.customer.io/ai/mcp/",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "customer.io",
+    "customerio",
+    "marketing",
+    "campaigns",
+    "segments",
+    "messaging",
+    "mcp"
+  ]
+}

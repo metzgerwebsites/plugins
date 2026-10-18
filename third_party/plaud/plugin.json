@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "plaud",
+  "version": "1.0.1",
+  "description": "Work with your Plaud recordings: list and search meetings and voice notes, read full transcripts with speaker labels, and pull AI summaries, action items, and key topics into your workflow.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.plaud.ai/plaud-mcp-cli/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "plaud",
+    "meeting notes",
+    "transcripts",
+    "recordings",
+    "voice notes",
+    "ai notetaker",
+    "summaries",
+    "action items",
+    "mcp"
+  ]
+}

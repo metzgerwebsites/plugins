@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wrike",
+  "version": "1.0.0",
+  "description": "Search projects, create tasks, and post comments.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.wrike.com/docs/wrike-mcp-server-overview",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "wrike",
+    "project-management",
+    "tasks",
+    "projects",
+    "work-management",
+    "mcp"
+  ]
+}

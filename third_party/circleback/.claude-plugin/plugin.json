@@ -1,0 +1,20 @@
+{
+  "name": "circleback",
+  "version": "1.0.0",
+  "description": "Search meetings, transcripts, action items, and emails.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://support.circleback.ai/en/articles/13249081-circleback-mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "circleback",
+    "meetings",
+    "transcripts",
+    "notes",
+    "calendar",
+    "mcp"
+  ]
+}

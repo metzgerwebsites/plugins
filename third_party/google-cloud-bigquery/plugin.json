@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "google-cloud-bigquery",
+  "version": "1.0.0",
+  "description": "Explore datasets and tables and run SQL queries.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "google cloud bigquery",
+    "google cloud",
+    "bigquery",
+    "sql",
+    "analytics",
+    "data warehouse",
+    "datasets",
+    "mcp"
+  ]
+}

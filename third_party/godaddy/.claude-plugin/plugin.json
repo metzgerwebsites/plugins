@@ -1,0 +1,20 @@
+{
+  "name": "godaddy",
+  "version": "1.0.0",
+  "description": "Brainstorm domain names and check availability.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.godaddy.com/en/docs/api-users/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "godaddy",
+    "domains",
+    "dns",
+    "availability",
+    "registration",
+    "mcp"
+  ]
+}

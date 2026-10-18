@@ -1,0 +1,25 @@
+{
+  "name": "square",
+  "version": "1.0.0",
+  "description": "Work with payments, orders, catalog, customers, and invoices.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.squareup.com/docs/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "square",
+    "payments",
+    "point of sale",
+    "pos",
+    "orders",
+    "catalog",
+    "inventory",
+    "customers",
+    "invoices",
+    "commerce",
+    "mcp"
+  ]
+}

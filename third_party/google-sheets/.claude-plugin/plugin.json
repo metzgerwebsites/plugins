@@ -1,0 +1,21 @@
+{
+  "name": "google-sheets",
+  "version": "1.1.0",
+  "description": "Read, write, and append spreadsheet data.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-sheets",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "google-sheets",
+    "sheets",
+    "google",
+    "mcp",
+    "spreadsheets",
+    "workspace"
+  ],
+  "skills": "./skills/"
+}

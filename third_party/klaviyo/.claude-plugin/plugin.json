@@ -1,0 +1,21 @@
+{
+  "name": "klaviyo",
+  "version": "1.0.0",
+  "description": "Manage profiles, segments, campaigns, and flows.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "klaviyo",
+    "marketing",
+    "email",
+    "sms",
+    "campaigns",
+    "segments",
+    "mcp"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "onedrive",
+  "version": "1.0.0",
+  "description": "Browse, search, and read Microsoft OneDrive files.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/onedrive",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "onedrive",
+    "files",
+    "microsoft",
+    "mcp",
+    "storage"
+  ]
+}

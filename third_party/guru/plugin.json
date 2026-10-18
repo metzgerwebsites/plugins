@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "guru",
+  "version": "1.0.0",
+  "description": "Search company knowledge and draft verified answers.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.getguru.com/docs/guru-mcp-server-overview",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "guru",
+    "knowledge-base",
+    "search",
+    "wiki",
+    "documentation",
+    "mcp"
+  ]
+}

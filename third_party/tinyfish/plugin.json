@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tinyfish",
+  "version": "1.0.1",
+  "description": "Browse and automate the web with TinyFish: run multi-step web automations, search the web, extract clean page content, and drive remote stealth browser sessions.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://docs.tinyfish.ai/mcp-integration",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "tinyfish",
+    "web automation",
+    "browser agent",
+    "web search",
+    "scraping",
+    "content extraction",
+    "browser sessions",
+    "playwright",
+    "mcp"
+  ]
+}

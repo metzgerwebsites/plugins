@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-business",
+  "version": "1.0.0",
+  "description": "Send messages and manage templates, contacts, and phone numbers in WhatsApp Business.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/whatsapp-business",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "whatsapp business",
+    "meta",
+    "messaging",
+    "mcp"
+  ]
+}

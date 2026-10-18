@@ -1,0 +1,1316 @@
+{
+  "name": "cursor-plugins",
+  "interface": {
+    "displayName": "Cursor Plugins"
+  },
+  "plugins": [
+    {
+      "name": "teaching",
+      "source": {
+        "source": "local",
+        "path": "./teaching"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Utilities"
+    },
+    {
+      "name": "continual-learning",
+      "source": {
+        "source": "local",
+        "path": "./continual-learning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-team-kit",
+      "source": {
+        "source": "local",
+        "path": "./cursor-team-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "thermos",
+      "source": {
+        "source": "local",
+        "path": "./thermos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "create-plugin",
+      "source": {
+        "source": "local",
+        "path": "./create-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ralph-loop",
+      "source": {
+        "source": "local",
+        "path": "./ralph-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "agent-compatibility",
+      "source": {
+        "source": "local",
+        "path": "./agent-compatibility"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cli-for-agent",
+      "source": {
+        "source": "local",
+        "path": "./cli-for-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pr-review-canvas",
+      "source": {
+        "source": "local",
+        "path": "./pr-review-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "docs-canvas",
+      "source": {
+        "source": "local",
+        "path": "./docs-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "cursor-sdk",
+      "source": {
+        "source": "local",
+        "path": "./cursor-sdk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "origin-apps",
+      "source": {
+        "source": "local",
+        "path": "./origin-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "orchestrate",
+      "source": {
+        "source": "local",
+        "path": "./orchestrate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "pstack",
+      "source": {
+        "source": "local",
+        "path": "./pstack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "dyl-stack",
+      "source": {
+        "source": "local",
+        "path": "./dyl-stack"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "grok-voice",
+      "source": {
+        "source": "local",
+        "path": "./grok-voice"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "advisor",
+      "source": {
+        "source": "local",
+        "path": "./advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "gmail",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gmail"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-drive",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-drive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-calendar",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-docs",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-docs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-sheets",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-sheets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "google-slides",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-slides"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "gong",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gong"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "salesforce",
+      "source": {
+        "source": "local",
+        "path": "./third_party/salesforce"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "salesforce-headless-360",
+      "source": {
+        "source": "local",
+        "path": "./third_party/salesforce-headless-360"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "playwright",
+      "source": {
+        "source": "local",
+        "path": "./third_party/playwright"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "github",
+      "source": {
+        "source": "local",
+        "path": "./third_party/github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "ashby",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ashby"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "greenhouse",
+      "source": {
+        "source": "local",
+        "path": "./third_party/greenhouse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "hubspot",
+      "source": {
+        "source": "local",
+        "path": "./third_party/hubspot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "intercom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/intercom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "zoom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "x",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "clay",
+      "source": {
+        "source": "local",
+        "path": "./third_party/clay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "circleback",
+      "source": {
+        "source": "local",
+        "path": "./third_party/circleback"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "docusign",
+      "source": {
+        "source": "local",
+        "path": "./third_party/docusign"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "navan",
+      "source": {
+        "source": "local",
+        "path": "./third_party/navan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "profound",
+      "source": {
+        "source": "local",
+        "path": "./third_party/profound"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "juicebox",
+      "source": {
+        "source": "local",
+        "path": "./third_party/juicebox"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "outreach",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outreach"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "amplemarket",
+      "source": {
+        "source": "local",
+        "path": "./third_party/amplemarket"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "klaviyo",
+      "source": {
+        "source": "local",
+        "path": "./third_party/klaviyo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "customer-io",
+      "source": {
+        "source": "local",
+        "path": "./third_party/customer-io"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "mailerlite",
+      "source": {
+        "source": "local",
+        "path": "./third_party/mailerlite"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "brevo",
+      "source": {
+        "source": "local",
+        "path": "./third_party/brevo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "typeform",
+      "source": {
+        "source": "local",
+        "path": "./third_party/typeform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "jotform",
+      "source": {
+        "source": "local",
+        "path": "./third_party/jotform"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "semrush",
+      "source": {
+        "source": "local",
+        "path": "./third_party/semrush"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "ahrefs",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ahrefs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "godaddy",
+      "source": {
+        "source": "local",
+        "path": "./third_party/godaddy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "upwork",
+      "source": {
+        "source": "local",
+        "path": "./third_party/upwork"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "workable",
+      "source": {
+        "source": "local",
+        "path": "./third_party/workable"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "brex",
+      "source": {
+        "source": "local",
+        "path": "./third_party/brex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "todoist",
+      "source": {
+        "source": "local",
+        "path": "./third_party/todoist"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "calendly",
+      "source": {
+        "source": "local",
+        "path": "./third_party/calendly"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "smartsheet",
+      "source": {
+        "source": "local",
+        "path": "./third_party/smartsheet"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "wrike",
+      "source": {
+        "source": "local",
+        "path": "./third_party/wrike"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "coda",
+      "source": {
+        "source": "local",
+        "path": "./third_party/coda"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "guru",
+      "source": {
+        "source": "local",
+        "path": "./third_party/guru"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "fireflies",
+      "source": {
+        "source": "local",
+        "path": "./third_party/fireflies"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "otter",
+      "source": {
+        "source": "local",
+        "path": "./third_party/otter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "fathom",
+      "source": {
+        "source": "local",
+        "path": "./third_party/fathom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "craft",
+      "source": {
+        "source": "local",
+        "path": "./third_party/craft"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "mem",
+      "source": {
+        "source": "local",
+        "path": "./third_party/mem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "readwise",
+      "source": {
+        "source": "local",
+        "path": "./third_party/readwise"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "similarweb",
+      "source": {
+        "source": "local",
+        "path": "./third_party/similarweb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "xero",
+      "source": {
+        "source": "local",
+        "path": "./third_party/xero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "outlook",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outlook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "outlook-calendar",
+      "source": {
+        "source": "local",
+        "path": "./third_party/outlook-calendar"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "onedrive",
+      "source": {
+        "source": "local",
+        "path": "./third_party/onedrive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "sharepoint",
+      "source": {
+        "source": "local",
+        "path": "./third_party/sharepoint"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "teams",
+      "source": {
+        "source": "local",
+        "path": "./third_party/teams"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "finance",
+      "source": {
+        "source": "local",
+        "path": "./third_party/finance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "x-ads",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x-ads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "attio",
+      "source": {
+        "source": "local",
+        "path": "./third_party/attio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "hunter",
+      "source": {
+        "source": "local",
+        "path": "./third_party/hunter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "gamma",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gamma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "webull",
+      "source": {
+        "source": "local",
+        "path": "./third_party/webull"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "sp-global",
+      "source": {
+        "source": "local",
+        "path": "./third_party/sp-global"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "interactive-brokers",
+      "source": {
+        "source": "local",
+        "path": "./third_party/interactive-brokers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "meltwater",
+      "source": {
+        "source": "local",
+        "path": "./third_party/meltwater"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "daloopa",
+      "source": {
+        "source": "local",
+        "path": "./third_party/daloopa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "excalidraw",
+      "source": {
+        "source": "local",
+        "path": "./third_party/excalidraw"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-cloud-bigquery"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "statsig",
+      "source": {
+        "source": "local",
+        "path": "./third_party/statsig"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "robinhood",
+      "source": {
+        "source": "local",
+        "path": "./third_party/robinhood"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "coinbase",
+      "source": {
+        "source": "local",
+        "path": "./third_party/coinbase"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "etoro-trading",
+      "source": {
+        "source": "local",
+        "path": "./third_party/etoro-trading"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "x-money",
+      "source": {
+        "source": "local",
+        "path": "./third_party/x-money"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "shopify-store",
+      "source": {
+        "source": "local",
+        "path": "./third_party/shopify-store"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "tinyfish",
+      "source": {
+        "source": "local",
+        "path": "./third_party/tinyfish"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "beehiiv",
+      "source": {
+        "source": "local",
+        "path": "./third_party/beehiiv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "trello",
+      "source": {
+        "source": "local",
+        "path": "./third_party/trello"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "buffer",
+      "source": {
+        "source": "local",
+        "path": "./third_party/buffer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "plaud",
+      "source": {
+        "source": "local",
+        "path": "./third_party/plaud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "posthog-mcp",
+      "source": {
+        "source": "local",
+        "path": "./third_party/posthog-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "quickbooks-online",
+      "source": {
+        "source": "local",
+        "path": "./third_party/quickbooks-online"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "workday",
+      "source": {
+        "source": "local",
+        "path": "./third_party/workday"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "whatsapp-business",
+      "source": {
+        "source": "local",
+        "path": "./third_party/whatsapp-business"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-crm",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoho-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-desk",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoho-desk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "zoho-books",
+      "source": {
+        "source": "local",
+        "path": "./third_party/zoho-books"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "square",
+      "source": {
+        "source": "local",
+        "path": "./third_party/square"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "tailscale",
+      "source": {
+        "source": "local",
+        "path": "./third_party/tailscale"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "highlevel",
+      "source": {
+        "source": "local",
+        "path": "./third_party/highlevel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "finary",
+      "source": {
+        "source": "local",
+        "path": "./third_party/finary"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "tiktok-for-business",
+      "source": {
+        "source": "local",
+        "path": "./third_party/tiktok-for-business"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "gusto",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gusto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    }
+  ]
+}

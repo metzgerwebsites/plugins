@@ -107,6 +107,42 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `gusto` | [Gusto](third_party/gusto/) | Cursor | Integrations | Work with payroll, employees, contractors, time off, and reports. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
+## Use with other agents
+
+Every plugin also ships a portable `plugin.json` (Agent Plugins 1.0.0) alongside its `.cursor-plugin/plugin.json`, and the repository root carries a marketplace manifest for each agent: `.claude-plugin/marketplace.json` (Claude Code, also read by Codex and Qwen Code), `.agents/plugins/marketplace.json` (Codex), and `.factory-plugin/marketplace.json` (Droid). The root `plugin.json`, `gemini-extension.json`, and aggregate `skills/` tree let Gemini CLI and Goose install the whole repository as one bundle.
+
+`node scripts/generate-agent-marketplace.mjs` regenerates all of it from `.cursor-plugin/marketplace.json`, and CI verifies it with `--check`. Do not edit those files by hand.
+
+| Agent | Register the marketplace | Install a plugin |
+|:------|:-------------------------|:-----------------|
+| Claude Code | `claude plugin marketplace add metzgerwebsites/plugins` | `claude plugin install <name>@cursor-plugins` |
+| Codex | `codex plugin marketplace add metzgerwebsites/plugins` | `codex plugin add <name>@cursor-plugins` |
+| Droid | `droid plugin marketplace add https://github.com/metzgerwebsites/plugins` | `droid plugin install <name>@cursor-plugins` |
+| Qwen Code | `qwen extensions sources add metzgerwebsites/plugins` | `qwen extensions install metzgerwebsites/plugins:<name>` |
+
+Gemini CLI and Goose take the whole repository as one bundle:
+
+```bash
+gemini extensions install https://github.com/metzgerwebsites/plugins
+goose plugin install https://github.com/metzgerwebsites/plugins
+```
+
+Goose has no uninstall command. To remove the bundle, delete `~/.config/goose/plugins/cursor-plugins`. To update it, run `goose plugin update cursor-plugins`.
+
+OpenCode and Crush have no plugin marketplaces. Point them at a checkout of this repository instead:
+
+```jsonc
+// ~/.config/opencode/opencode.json
+{ "skills": ["/path/to/plugins/skills"] }
+```
+
+```jsonc
+// ~/.config/crush/crush.json
+{ "skills_paths": ["/path/to/plugins/skills"] }
+```
+
+Some plugins ship Cursor-format hooks (`hooks/hooks.json`). Other agents install them and ignore those hooks; the plugin's skills still work.
+
 ## Repository structure
 
 This is a multi-plugin marketplace repository. The root `.cursor-plugin/marketplace.json` lists all plugins, and each plugin has its own manifest:

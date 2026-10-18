@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ahrefs",
+  "version": "1.0.0",
+  "description": "Research keywords, backlinks, rankings, and site health.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://ahrefs.com/mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "ahrefs",
+    "seo",
+    "backlinks",
+    "keywords",
+    "rank-tracking",
+    "site-audit",
+    "mcp"
+  ]
+}

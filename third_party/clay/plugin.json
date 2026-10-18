@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "clay",
+  "version": "1.0.0",
+  "description": "Enrich people and companies, run AI research agents.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://university.clay.com/docs/connect-to-clay-mcp",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "clay",
+    "enrichment",
+    "prospecting",
+    "gtm",
+    "sales",
+    "data",
+    "mcp"
+  ]
+}

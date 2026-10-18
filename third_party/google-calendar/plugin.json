@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "google-calendar",
+  "version": "1.0.0",
+  "description": "Search events and schedule meetings.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/google-calendar",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "google-calendar",
+    "calendar",
+    "google",
+    "mcp",
+    "events",
+    "workspace"
+  ]
+}
