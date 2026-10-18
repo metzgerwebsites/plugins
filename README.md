@@ -109,7 +109,7 @@ Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `p
 
 ## Use with other agents
 
-Every plugin also ships a portable `plugin.json` (Agent Plugins 1.0.0) alongside its `.cursor-plugin/plugin.json`, and the repository root carries a marketplace manifest for each agent: `.claude-plugin/marketplace.json` (Claude Code, also read by Codex and Qwen Code), `.agents/plugins/marketplace.json` (Codex), and `.factory-plugin/marketplace.json` (Droid). The root `plugin.json`, `gemini-extension.json`, and aggregate `skills/` tree let Gemini CLI and Goose install the whole repository as one bundle.
+Every plugin also ships a portable `plugin.json` (Agent Plugins 1.0.0) alongside its `.cursor-plugin/plugin.json`, and the repository root carries a marketplace manifest for each agent: `.claude-plugin/marketplace.json` (Claude Code, also read by Codex, Qwen Code, and omp), `.agents/plugins/marketplace.json` (Codex), and `.factory-plugin/marketplace.json` (Droid). The root `plugin.json`, `gemini-extension.json`, and aggregate `skills/` tree let Gemini CLI, Goose, and OmO install the whole repository as one bundle.
 
 `node scripts/generate-agent-marketplace.mjs` regenerates all of it from `.cursor-plugin/marketplace.json`, and CI verifies it with `--check`. Do not edit those files by hand.
 
@@ -119,6 +119,7 @@ Every plugin also ships a portable `plugin.json` (Agent Plugins 1.0.0) alongside
 | Codex | `codex plugin marketplace add metzgerwebsites/plugins` | `codex plugin add <name>@cursor-plugins` |
 | Droid | `droid plugin marketplace add https://github.com/metzgerwebsites/plugins` | `droid plugin install <name>@plugins` |
 | Qwen Code | `qwen extensions sources add metzgerwebsites/plugins` | `qwen extensions install metzgerwebsites/plugins:<name> --consent` (the selector is ignored; the whole repository installs as one extension named `cursor-plugins`) |
+| omp | `omp plugin marketplace add metzgerwebsites/plugins` | `omp plugin install <name>` |
 
 Gemini CLI and Goose take the whole repository as one bundle:
 
@@ -128,6 +129,20 @@ goose plugin install https://github.com/metzgerwebsites/plugins
 ```
 
 Goose has no uninstall command. To remove the bundle, delete `~/.agents/plugins/cursor-plugins`. To update it, run `goose plugin update cursor-plugins`.
+
+OmO takes the whole repository as one source and loads the aggregate `skills/` tree from it:
+
+```bash
+omo install https://github.com/metzgerwebsites/plugins   # register the source
+omo config                                              # toggle the source's resources
+omo remove https://github.com/metzgerwebsites/plugins   # unregister
+```
+
+Reasonix installs one plugin at a time and maps skills and subagents from the same `.claude-plugin/plugin.json` manifests that Claude Code reads. Its marketplace reader stops at 64 plugins, and this marketplace lists 109, so install by tree URL. Without `--yes` the command prints a plan and stops:
+
+```bash
+reasonix plugin install https://github.com/metzgerwebsites/plugins/tree/agent-marketplace/<plugin> --yes
+```
 
 OpenCode has no plugin marketplace. Point it at a checkout of this repository instead:
 
