@@ -1,6 +1,9 @@
 name: Validate plugins
 
 on:
+  push:
+    branches:
+      - agent-marketplace
   pull_request:
     paths:
       - ".agents/**"
