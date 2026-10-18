@@ -1,22 +1,20 @@
 ---
-name: X MCP guide
+name: x-api-mcp-guide
 description: >-
-  ALWAYS read this when a user connects the X plugin or any X MCP, before using
-  any X tool, including Grok Bot's built-in public reads (no X connection or
-  credits needed), and again on any X error. Do not call an X tool until this
-  file has been read in the current turn. On first connect, confirm X tools
-  exist, fetch get_usage_credits BEFORE any user-facing text, then send the
-  capabilities message. Never tell the user to buy credits until that
-  check returns ~$0 or a job would exceed the balance. tools=0 / user-X-* not
-  found is a setup failure, not a paywall. X Chat, XChat, inbox, DMs,
-  message requests, accepting a request, Chat PIN, juicebox, and xchat_lite
-  live in THIS file: clone xchat-grokbot-helper and run xchat_lite.py locally —
-  do not wait for the user to name the helper or another skill. Missing chat
-  tools or dm.read/dm.write while other X tools work: reconnect the X plugin.
-  Scheduled X calls use schedule_call, list_scheduled_calls, get_scheduled_call,
-  update_scheduled_call, cancel_scheduled_call, and respond_to_scheduled_call.
-  Missing those tools or calls.read/calls.write while other X tools work:
-  reconnect the X plugin. Estimate every X call and confirm before anything expensive.
+  ALWAYS read this when a user connects the X plugin or any X MCP, and on any X
+  error; never call an X tool before reading it. Built-in public reads need no X
+  connection or credits. On first connect, confirm X tools exist, fetch
+  get_usage_credits BEFORE any user-facing text, then send the capabilities
+  message. Never tell the user to buy credits until that check returns ~$0 or a
+  job exceeds the balance. tools=0 / user-X-* not found is a setup failure, not
+  a paywall. X Chat, inbox, DMs, message requests, Chat PIN, juicebox,
+  xchat_lite live in THIS file: clone xchat-grokbot-helper and run xchat_lite.py
+  locally; do not wait for the user to name the helper. Missing chat tools or
+  dm.read/dm.write while other X tools work: reconnect. Scheduled calls use
+  schedule_call, list_scheduled_calls, get_scheduled_call, update_scheduled_call,
+  cancel_scheduled_call, respond_to_scheduled_call; missing those or
+  calls.read/calls.write while other X tools work: reconnect. Estimate every X
+  call; confirm before anything expensive.
 ---
 # X MCP guide
 
