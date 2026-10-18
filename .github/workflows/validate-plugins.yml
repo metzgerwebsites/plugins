@@ -1,6 +1,7 @@
 name: Validate plugins
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - agent-marketplace
