@@ -3,13 +3,17 @@ name: Validate plugins
 on:
   pull_request:
     paths:
+      - ".agents/**"
+      - ".claude-plugin/**"
       - ".cursor-plugin/marketplace.json"
-      - ".claude-plugin/marketplace.json"
+      - ".factory-plugin/**"
       - "**/plugin.json"
+      - "gemini-extension.json"
       - "schemas/**"
       - "pstack/**"
       - "harness/**"
       - "scripts/**"
+      - "skills/**"
       - ".github/workflows/validate-plugins.yml"
 
 jobs:
@@ -30,3 +34,6 @@ jobs:
 
       - name: Check generated pstack harness trees
         run: node scripts/generate-pstack-harness-trees.mjs --check
+
+      - name: Check generated cross-agent marketplace files
+        run: node scripts/generate-agent-marketplace.mjs --check
