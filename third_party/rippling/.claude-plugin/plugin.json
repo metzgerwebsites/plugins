@@ -1,0 +1,23 @@
+{
+  "name": "rippling",
+  "version": "1.0.0",
+  "description": "Look up people, time off, and company policy in Rippling, and file time-off requests and draft hires.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://developer.rippling.com/documentation/rippling-platform/rippling-mcp/setup",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "rippling",
+    "hr",
+    "hris",
+    "people",
+    "employees",
+    "time off",
+    "payroll",
+    "policy",
+    "mcp"
+  ]
+}

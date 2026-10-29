@@ -1,0 +1,19 @@
+{
+  "name": "feishu",
+  "version": "1.0.0",
+  "description": "Search, create, and update Feishu docs, and read Feishu messages and groups.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "feishu",
+    "docs",
+    "im",
+    "messages",
+    "mcp"
+  ]
+}

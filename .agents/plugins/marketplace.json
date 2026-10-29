@@ -281,6 +281,18 @@
       "category": "Productivity"
     },
     {
+      "name": "google-ads",
+      "source": {
+        "source": "local",
+        "path": "./third_party/google-ads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
       "name": "gong",
       "source": {
         "source": "local",
@@ -881,6 +893,18 @@
       "category": "Productivity"
     },
     {
+      "name": "power-bi",
+      "source": {
+        "source": "local",
+        "path": "./third_party/power-bi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
       "name": "finance",
       "source": {
         "source": "local",
@@ -905,6 +929,18 @@
       "category": "Integrations"
     },
     {
+      "name": "meta-ads",
+      "source": {
+        "source": "local",
+        "path": "./third_party/meta-ads"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
       "name": "attio",
       "source": {
         "source": "local",
@@ -921,6 +957,18 @@
       "source": {
         "source": "local",
         "path": "./third_party/hunter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "stable",
+      "source": {
+        "source": "local",
+        "path": "./third_party/stable"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -993,6 +1041,18 @@
       "source": {
         "source": "local",
         "path": "./third_party/daloopa"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "pitchbook",
+      "source": {
+        "source": "local",
+        "path": "./third_party/pitchbook"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -1241,6 +1301,18 @@
       "category": "Integrations"
     },
     {
+      "name": "business-central",
+      "source": {
+        "source": "local",
+        "path": "./third_party/business-central"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance And Legal"
+    },
+    {
       "name": "square",
       "source": {
         "source": "local",
@@ -1305,6 +1377,162 @@
       "source": {
         "source": "local",
         "path": "./third_party/gusto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "gopuff",
+      "source": {
+        "source": "local",
+        "path": "./third_party/gopuff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "jobber",
+      "source": {
+        "source": "local",
+        "path": "./third_party/jobber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "databricks-genie-one",
+      "source": {
+        "source": "local",
+        "path": "./third_party/databricks-genie-one"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "lark",
+      "source": {
+        "source": "local",
+        "path": "./third_party/lark"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "feishu",
+      "source": {
+        "source": "local",
+        "path": "./third_party/feishu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "framer",
+      "source": {
+        "source": "local",
+        "path": "./third_party/framer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "vanta",
+      "source": {
+        "source": "local",
+        "path": "./third_party/vanta"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "ringcentral-phone",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ringcentral-phone"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "ringcentral-chat",
+      "source": {
+        "source": "local",
+        "path": "./third_party/ringcentral-chat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "servicenow",
+      "source": {
+        "source": "local",
+        "path": "./third_party/servicenow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "rippling",
+      "source": {
+        "source": "local",
+        "path": "./third_party/rippling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "onepay",
+      "source": {
+        "source": "local",
+        "path": "./third_party/onepay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Integrations"
+    },
+    {
+      "name": "questrade",
+      "source": {
+        "source": "local",
+        "path": "./third_party/questrade"
       },
       "policy": {
         "installation": "AVAILABLE",

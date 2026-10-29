@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jobber",
+  "version": "1.0.0",
+  "description": "Work with clients, requests, quotes, jobs, visits, and invoices.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.getjobber.com/",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "jobber",
+    "field service",
+    "home service",
+    "clients",
+    "requests",
+    "quotes",
+    "jobs",
+    "visits",
+    "invoices",
+    "scheduling",
+    "mcp"
+  ]
+}

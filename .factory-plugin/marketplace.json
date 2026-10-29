@@ -145,6 +145,12 @@
       "category": "Productivity"
     },
     {
+      "name": "google-ads",
+      "description": "Report on campaigns, research keywords, and make previewed changes.",
+      "source": "./third_party/google-ads",
+      "category": "Integrations"
+    },
+    {
       "name": "gong",
       "description": "Pull account summaries, deal insights, and call briefs.",
       "source": "./third_party/gong",
@@ -206,7 +212,7 @@
     },
     {
       "name": "x",
-      "description": "Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls.",
+      "description": "Search posts, read timelines, pull trends, explore Spaces and communities, manage lists and bookmarks, access X Chat, schedule X calls, and manage livestreams.",
       "source": "./third_party/x",
       "category": "Integrations"
     },
@@ -445,6 +451,12 @@
       "category": "Productivity"
     },
     {
+      "name": "power-bi",
+      "description": "Browse Microsoft Power BI workspaces and render report pages.",
+      "source": "./third_party/power-bi",
+      "category": "Integrations"
+    },
+    {
       "name": "finance",
       "description": "Link your bank, card, and investment accounts through Plaid so Grok can answer questions about balances, spending, subscriptions, and investments. You'll share contact details, account and balance info, transactions, credit and loans, and investments. Grok syncs and stores your linked account data so the connector can work, and Grok Bot's privacy mode still controls whether your conversations are stored or used for training. Access is read-only, xAI never sees or stores your bank login, and you can unlink accounts anytime from cursor.com.",
       "source": "./third_party/finance",
@@ -457,6 +469,12 @@
       "category": "Integrations"
     },
     {
+      "name": "meta-ads",
+      "description": "Manage campaigns, ads, audiences, and catalogs, and pull performance insights.",
+      "source": "./third_party/meta-ads",
+      "category": "Integrations"
+    },
+    {
       "name": "attio",
       "description": "Search and update CRM records, lists, notes, and tasks.",
       "source": "./third_party/attio",
@@ -466,6 +484,12 @@
       "name": "hunter",
       "description": "Find and verify emails, discover companies, and save leads.",
       "source": "./third_party/hunter",
+      "category": "Integrations"
+    },
+    {
+      "name": "stable",
+      "description": "Find mail, read scanned documents, and call Stable API endpoints.",
+      "source": "./third_party/stable",
       "category": "Integrations"
     },
     {
@@ -502,6 +526,12 @@
       "name": "daloopa",
       "description": "Pull source-linked fundamentals, KPIs, filings, and prices.",
       "source": "./third_party/daloopa",
+      "category": "Integrations"
+    },
+    {
+      "name": "pitchbook",
+      "description": "Research private companies, deals, investors, and funds.",
+      "source": "./third_party/pitchbook",
       "category": "Integrations"
     },
     {
@@ -590,7 +620,7 @@
     },
     {
       "name": "quickbooks-online",
-      "description": "Read invoices, bills, expenses, customers, accounts, and financial reports.",
+      "description": "QuickBooks turns your business's financial data into clear, decision-ready insights, and now takes action on it too. Analyze profitability, cash flow, and balance sheet health, and benchmark your performance against similar businesses in your industry and region. See who owes you money and which bills are coming due with A/R and A/P aging, and break down sales by customer or product to find what is driving revenue. Create, update, send, duplicate, and schedule invoices and estimates. Add customers and products, generate, and send payment links and reminders, always with a clear preview and your confirmation before anything is sent. Get fast read-only answers on payroll and QuickBooks Capital. Look up payroll details, and when you need to, add an employee or set base pay. Check your QuickBooks Capital loans and peer lending benchmarks.",
       "source": "./third_party/quickbooks-online",
       "category": "Integrations"
     },
@@ -625,6 +655,12 @@
       "category": "Integrations"
     },
     {
+      "name": "business-central",
+      "description": "Work with customers, vendors, items, sales and purchase documents, and the general ledger in Business Central.",
+      "source": "./third_party/business-central",
+      "category": "Finance And Legal"
+    },
+    {
       "name": "square",
       "description": "Work with payments, orders, catalog, customers, and invoices.",
       "source": "./third_party/square",
@@ -632,7 +668,7 @@
     },
     {
       "name": "tailscale",
-      "description": "Let Grok Bot reach MCP servers on your private Tailscale network. On your own tailnet it joins as one tag:grokbot device; on your team's company tailnet, turned on by a team admin, it uses each member's own device.",
+      "description": "Let Grok Bot reach MCP servers on your private Tailscale network: connect your own tailnet, or your team's company tailnets turned on by a team admin, with each member using their own device.",
       "source": "./third_party/tailscale",
       "category": "Integrations"
     },
@@ -658,6 +694,84 @@
       "name": "gusto",
       "description": "Work with payroll, employees, contractors, time off, and reports.",
       "source": "./third_party/gusto",
+      "category": "Integrations"
+    },
+    {
+      "name": "gopuff",
+      "description": "Groceries, snacks, drinks, fresh food and household essentials delivered in as fast as 15 minutes, with many Gopuff locations open 24/7. Ask Grok for a weekly restock, tonight's dinner, a party run, a late-night craving or your usual: it shops your nearest Gopuff at app prices with no markups or service fees, builds your cart, shows you the total, places the order when you say yes and tracks it to your door.",
+      "source": "./third_party/gopuff",
+      "category": "Integrations"
+    },
+    {
+      "name": "jobber",
+      "description": "Work with clients, requests, quotes, jobs, visits, and invoices.",
+      "source": "./third_party/jobber",
+      "category": "Integrations"
+    },
+    {
+      "name": "databricks-genie-one",
+      "description": "Ask Databricks Genie questions about your workspace's data in plain language.",
+      "source": "./third_party/databricks-genie-one",
+      "category": "Integrations"
+    },
+    {
+      "name": "lark",
+      "description": "Search, create, and update Lark Suite docs, and read Lark messages and groups.",
+      "source": "./third_party/lark",
+      "category": "Integrations"
+    },
+    {
+      "name": "feishu",
+      "description": "Search, create, and update Feishu docs, and read Feishu messages and groups.",
+      "source": "./third_party/feishu",
+      "category": "Integrations"
+    },
+    {
+      "name": "framer",
+      "description": "Design, build, and edit your Framer sites, pages, and CMS content.",
+      "source": "./third_party/framer",
+      "category": "Integrations"
+    },
+    {
+      "name": "vanta",
+      "description": "Query and remediate compliance tests, controls, frameworks, risks, and vulnerabilities in Vanta.",
+      "source": "./third_party/vanta",
+      "category": "Integrations"
+    },
+    {
+      "name": "ringcentral-phone",
+      "description": "Read call activity, AI call notes, SMS, voicemail, and fax, and send SMS.",
+      "source": "./third_party/ringcentral-phone",
+      "category": "Integrations"
+    },
+    {
+      "name": "ringcentral-chat",
+      "description": "Read team chats and posts, send messages, and manage teams, tasks, and notes.",
+      "source": "./third_party/ringcentral-chat",
+      "category": "Integrations"
+    },
+    {
+      "name": "servicenow",
+      "description": "Call the tools your admin publishes on a ServiceNow instance.",
+      "source": "./third_party/servicenow",
+      "category": "Integrations"
+    },
+    {
+      "name": "rippling",
+      "description": "Look up people, time off, and company policy in Rippling, and file time-off requests and draft hires.",
+      "source": "./third_party/rippling",
+      "category": "Integrations"
+    },
+    {
+      "name": "onepay",
+      "description": "Access your OnePay accounts: balances, transactions, credit, Pay Later, investments, crypto, and rewards.",
+      "source": "./third_party/onepay",
+      "category": "Integrations"
+    },
+    {
+      "name": "questrade",
+      "description": "Read your Questrade portfolio, get live market data, and discuss potential trades.",
+      "source": "./third_party/questrade",
       "category": "Integrations"
     }
   ]

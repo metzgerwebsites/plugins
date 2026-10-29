@@ -1,0 +1,21 @@
+{
+  "name": "servicenow",
+  "version": "1.0.0",
+  "description": "Call the tools your admin publishes on a ServiceNow instance.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-mcp-server-console.html",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "servicenow",
+    "itsm",
+    "incidents",
+    "cases",
+    "mcp",
+    "mcp server console",
+    "now assist"
+  ]
+}

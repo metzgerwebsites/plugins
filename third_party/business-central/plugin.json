@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "business-central",
+  "version": "1.0.0",
+  "description": "Work with customers, vendors, items, sales and purchase documents, and the general ledger in Business Central.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/business-central",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "microsoft",
+    "dynamics 365",
+    "business central",
+    "erp",
+    "accounting",
+    "invoices",
+    "mcp"
+  ]
+}

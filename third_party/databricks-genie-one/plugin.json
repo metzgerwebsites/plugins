@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "databricks-genie-one",
+  "version": "1.0.1",
+  "description": "Ask Databricks Genie questions about your workspace's data in plain language.",
+  "author": {
+    "name": "Cursor",
+    "email": "plugins@cursor.com"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/third_party/databricks-genie-one",
+  "repository": "https://github.com/cursor/plugins",
+  "license": "MIT",
+  "keywords": [
+    "databricks",
+    "genie",
+    "genie one",
+    "data",
+    "analytics",
+    "sql",
+    "lakehouse",
+    "mcp"
+  ]
+}

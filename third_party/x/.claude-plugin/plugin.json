@@ -1,7 +1,7 @@
 {
   "name": "x",
-  "version": "2.7.0",
-  "description": "Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls.",
+  "version": "2.10.0",
+  "description": "Search posts, read timelines, pull trends, explore Spaces and communities, manage lists and bookmarks, access X Chat, schedule X calls, and manage livestreams.",
   "author": {
     "name": "Cursor",
     "email": "plugins@cursor.com"
@@ -16,9 +16,12 @@
     "search",
     "trends",
     "news",
+    "spaces",
+    "communities",
     "lists",
     "bookmarks",
     "calls",
+    "livestream",
     "chat",
     "social",
     "mcp"
